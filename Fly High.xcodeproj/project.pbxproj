@@ -3,31 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BB7F1BA4783490C469300EB /* Pods_Fly_High.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFF19A2F04E17198124AAC5 /* Pods_Fly_High.framework */; };
+		720F6B202352302F002DA572 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F6B1F2352302F002DA572 /* DataModel.swift */; };
+		72204403235105A200B8C46F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72204402235105A200B8C46F /* Constants.swift */; };
+		72204405235109DB00B8C46F /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72204404235109DB00B8C46F /* CGFloatExtension.swift */; };
+		723B1195235352AD005BA847 /* GameResultScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B1194235352AD005BA847 /* GameResultScene.swift */; };
+		72AD06D32351B33E004BC4DB /* Doubledecker DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72AD06D12351B33E004BC4DB /* Doubledecker DEMO.otf */; };
+		72AD06D42351B33E004BC4DB /* Doubledecker Dots DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72AD06D22351B33E004BC4DB /* Doubledecker Dots DEMO.otf */; };
+		72AD06DA2351BF7E004BC4DB /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AD06D92351BF7E004BC4DB /* Button.swift */; };
+		72AD06DC2351C55D004BC4DB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AD06DB2351C55D004BC4DB /* GameScene.swift */; };
 		72D5B34D234FB0C100287A09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5B34C234FB0C100287A09 /* AppDelegate.swift */; };
 		72D5B34F234FB0C100287A09 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 72D5B34E234FB0C100287A09 /* GameScene.sks */; };
 		72D5B351234FB0C100287A09 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 72D5B350234FB0C100287A09 /* Actions.sks */; };
-		72D5B353234FB0C100287A09 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5B352234FB0C100287A09 /* GameScene.swift */; };
+		72D5B353234FB0C100287A09 /* WelcomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5B352234FB0C100287A09 /* WelcomeScene.swift */; };
 		72D5B355234FB0C100287A09 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5B354234FB0C100287A09 /* GameViewController.swift */; };
 		72D5B358234FB0C100287A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D5B356234FB0C100287A09 /* Main.storyboard */; };
 		72D5B35A234FB0C700287A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D5B359234FB0C700287A09 /* Assets.xcassets */; };
 		72D5B35D234FB0C700287A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D5B35B234FB0C700287A09 /* LaunchScreen.storyboard */; };
+		72D5B369234FC1E700287A09 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5B368234FC1E700287A09 /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11190F99C335BB1ACC417446 /* Pods-Fly High.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fly High.release.xcconfig"; path = "Target Support Files/Pods-Fly High/Pods-Fly High.release.xcconfig"; sourceTree = "<group>"; };
+		3FFF19A2F04E17198124AAC5 /* Pods_Fly_High.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fly_High.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		720F6B1F2352302F002DA572 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		72204402235105A200B8C46F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		72204404235109DB00B8C46F /* CGFloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+		723B1194235352AD005BA847 /* GameResultScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultScene.swift; sourceTree = "<group>"; };
+		72AD06D12351B33E004BC4DB /* Doubledecker DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Doubledecker DEMO.otf"; sourceTree = "<group>"; };
+		72AD06D22351B33E004BC4DB /* Doubledecker Dots DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Doubledecker Dots DEMO.otf"; sourceTree = "<group>"; };
+		72AD06D92351BF7E004BC4DB /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		72AD06DB2351C55D004BC4DB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		72D5B349234FB0C100287A09 /* Fly High.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fly High.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D5B34C234FB0C100287A09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72D5B34E234FB0C100287A09 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		72D5B350234FB0C100287A09 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		72D5B352234FB0C100287A09 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		72D5B352234FB0C100287A09 /* WelcomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScene.swift; sourceTree = "<group>"; };
 		72D5B354234FB0C100287A09 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		72D5B357234FB0C100287A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72D5B359234FB0C700287A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72D5B35C234FB0C700287A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72D5B35E234FB0C700287A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D5B368234FC1E700287A09 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		F496A239C4E188CD185E6AD3 /* Pods-Fly High.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fly High.debug.xcconfig"; path = "Target Support Files/Pods-Fly High/Pods-Fly High.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +57,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BB7F1BA4783490C469300EB /* Pods_Fly_High.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A5C65FED1906EDEDC83E37A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F496A239C4E188CD185E6AD3 /* Pods-Fly High.debug.xcconfig */,
+				11190F99C335BB1ACC417446 /* Pods-Fly High.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6282E6B8CFA4668DC5D38599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF19A2F04E17198124AAC5 /* Pods_Fly_High.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		722044012351058A00B8C46F /* Constants + Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				72204402235105A200B8C46F /* Constants.swift */,
+				72204404235109DB00B8C46F /* CGFloatExtension.swift */,
+			);
+			path = "Constants + Extensions";
+			sourceTree = "<group>";
+		};
+		722044062351139B00B8C46F /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				720F6B1F2352302F002DA572 /* DataModel.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		72AD06D52351B345004BC4DB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				72AD06D12351B33E004BC4DB /* Doubledecker DEMO.otf */,
+				72AD06D22351B33E004BC4DB /* Doubledecker Dots DEMO.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		72AD06D82351BF65004BC4DB /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				72AD06D92351BF7E004BC4DB /* Button.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		72D5B340234FB0C100287A09 = {
 			isa = PBXGroup;
 			children = (
 				72D5B34B234FB0C100287A09 /* Fly High */,
 				72D5B34A234FB0C100287A09 /* Products */,
+				3A5C65FED1906EDEDC83E37A /* Pods */,
+				6282E6B8CFA4668DC5D38599 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +136,56 @@
 		72D5B34B234FB0C100287A09 /* Fly High */ = {
 			isa = PBXGroup;
 			children = (
-				72D5B34C234FB0C100287A09 /* AppDelegate.swift */,
-				72D5B34E234FB0C100287A09 /* GameScene.sks */,
-				72D5B350234FB0C100287A09 /* Actions.sks */,
-				72D5B352234FB0C100287A09 /* GameScene.swift */,
+				72AD06D82351BF65004BC4DB /* Entities */,
+				72AD06D52351B345004BC4DB /* Fonts */,
+				722044062351139B00B8C46F /* Data Model */,
+				722044012351058A00B8C46F /* Constants + Extensions */,
+				72D5B367234FC1CB00287A09 /* Networking */,
+				72D5B366234FC1AF00287A09 /* Supporting Files */,
+				72D5B364234FC18200287A09 /* GameScenes */,
 				72D5B354234FB0C100287A09 /* GameViewController.swift */,
-				72D5B356234FB0C100287A09 /* Main.storyboard */,
+				72D5B365234FC1A000287A09 /* Storyboards */,
 				72D5B359234FB0C700287A09 /* Assets.xcassets */,
-				72D5B35B234FB0C700287A09 /* LaunchScreen.storyboard */,
 				72D5B35E234FB0C700287A09 /* Info.plist */,
 			);
 			path = "Fly High";
+			sourceTree = "<group>";
+		};
+		72D5B364234FC18200287A09 /* GameScenes */ = {
+			isa = PBXGroup;
+			children = (
+				72D5B352234FB0C100287A09 /* WelcomeScene.swift */,
+				72AD06DB2351C55D004BC4DB /* GameScene.swift */,
+				723B1194235352AD005BA847 /* GameResultScene.swift */,
+			);
+			path = GameScenes;
+			sourceTree = "<group>";
+		};
+		72D5B365234FC1A000287A09 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				72D5B356234FB0C100287A09 /* Main.storyboard */,
+				72D5B35B234FB0C700287A09 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		72D5B366234FC1AF00287A09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72D5B34C234FB0C100287A09 /* AppDelegate.swift */,
+				72D5B34E234FB0C100287A09 /* GameScene.sks */,
+				72D5B350234FB0C100287A09 /* Actions.sks */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72D5B367234FC1CB00287A09 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				72D5B368234FC1E700287A09 /* Networking.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72D5B361234FB0C700287A09 /* Build configuration list for PBXNativeTarget "Fly High" */;
 			buildPhases = (
+				373B03AC41FA9E071F570015 /* [CP] Check Pods Manifest.lock */,
 				72D5B345234FB0C100287A09 /* Sources */,
 				72D5B346234FB0C100287A09 /* Frameworks */,
 				72D5B347234FB0C100287A09 /* Resources */,
+				34F75002FC9D20540BE53233 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,8 +249,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				72D5B358234FB0C100287A09 /* Main.storyboard in Resources */,
+				72AD06D42351B33E004BC4DB /* Doubledecker Dots DEMO.otf in Resources */,
 				72D5B34F234FB0C100287A09 /* GameScene.sks in Resources */,
 				72D5B35A234FB0C700287A09 /* Assets.xcassets in Resources */,
+				72AD06D32351B33E004BC4DB /* Doubledecker DEMO.otf in Resources */,
 				72D5B35D234FB0C700287A09 /* LaunchScreen.storyboard in Resources */,
 				72D5B351234FB0C100287A09 /* Actions.sks in Resources */,
 			);
@@ -141,14 +260,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34F75002FC9D20540BE53233 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fly High/Pods-Fly High-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fly High/Pods-Fly High-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fly High/Pods-Fly High-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		373B03AC41FA9E071F570015 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fly High-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		72D5B345234FB0C100287A09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72D5B353234FB0C100287A09 /* GameScene.swift in Sources */,
+				72204403235105A200B8C46F /* Constants.swift in Sources */,
+				723B1195235352AD005BA847 /* GameResultScene.swift in Sources */,
+				72AD06DA2351BF7E004BC4DB /* Button.swift in Sources */,
+				72AD06DC2351C55D004BC4DB /* GameScene.swift in Sources */,
+				72D5B353234FB0C100287A09 /* WelcomeScene.swift in Sources */,
+				72204405235109DB00B8C46F /* CGFloatExtension.swift in Sources */,
 				72D5B355234FB0C100287A09 /* GameViewController.swift in Sources */,
 				72D5B34D234FB0C100287A09 /* AppDelegate.swift in Sources */,
+				72D5B369234FC1E700287A09 /* Networking.swift in Sources */,
+				720F6B202352302F002DA572 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +458,13 @@
 		};
 		72D5B362234FB0C700287A09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F496A239C4E188CD185E6AD3 /* Pods-Fly High.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8HPPY9DLS;
 				INFOPLIST_FILE = "Fly High/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,11 +478,13 @@
 		};
 		72D5B363234FB0C700287A09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11190F99C335BB1ACC417446 /* Pods-Fly High.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8HPPY9DLS;
 				INFOPLIST_FILE = "Fly High/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
