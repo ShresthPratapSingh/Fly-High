@@ -1,7 +1,7 @@
 # Fly-High
 Fly-High is a simple but fun voczbulary quiz game that is built in sprite kit.
 
-##Setup
+## Setup
 1. Clone or download the dev branch.
 2.Close Xcode
 3. Open a terminal window, and ```$ cd``` into your project directory.
