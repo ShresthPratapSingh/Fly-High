@@ -1,5 +1,5 @@
 # Fly-High
-Fly-High is a simple but fun voczbulary quiz game that is built in sprite kit.
+Fly-High is a simple but fun vocabulary quiz game that is built in sprite kit.
 
 ## Setup
 1. Clone or download the dev branch.
